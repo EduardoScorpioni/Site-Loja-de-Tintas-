@@ -1,0 +1,129 @@
+:root {
+    --primary: #4a6bdf;
+    --secondary: #ff6b6b;
+    --accent: #ffd166;
+    --dark: #2d3436;
+    --light: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7ff;
+    color: var(--dark);
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #4a6bdf 0%, #38b6ff 100%);
+    color: white;
+    border-radius: 0 0 20px 20px;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+}
+
+.category-card {
+    transition: transform 0.3s;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.product-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: #3a5bc9;
+    border-color: #3a5bc9;
+}
+
+.btn-warning {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: var(--dark);
+}
+
+.badge-discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--secondary);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.carousel-item {
+    height: 400px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.feature-icon {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background-color: var(--dark);
+    padding: 3rem 0 1rem;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: var(--accent);
+}
+
+.promo-banner {
+    background-color: var(--accent);
+    color: var(--dark);
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
